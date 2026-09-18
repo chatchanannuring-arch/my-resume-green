@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>หน้าแรก | My Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a href="index.html" class="logo">MY RESUME</a>
+  <nav class="site-nav" aria-label="เมนูหลัก">
+    <ul>
+      <li><a href="index.html" class="active">หน้าแรก</a></li>
+      <li><a href="experience.html">ประสบการณ์</a></li>
+      <li><a href="projects.html">ผลงาน</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <img src="images/profile.jpg" alt="รูปโปรไฟล์" class="avatar">
+    <div class="hero-text">
+      <span class="eyebrow">WELCOME TO MY PORTFOLIO</span>
+      <h1>ชัชนันท์ หนูหริ่ง </h1>
+      <p class="tagline">นักศึกษาวิศวกรรมไฟฟ้าสื่อสาร ชั้นปีที่ 4 | สนใจระบบเครือข่าย ระบบสื่อสาร และระบบอัตโนมัติ</p>
+      <p>ผมเป็นนักศึกษาชั้นปีที่ 4 คณะวิศวกรรมศาสตร์ มหาวิทยาลัยศิลปากร สาขาวิศวกรรมไฟฟ้าสื่อสาร มีความสนใจด้านระบบเครือข่าย ระบบสื่อสาร IoT ระบบควบคุม และการประยุกต์ใช้เทคโนโลยีเพื่อพัฒนาโครงงานที่สามารถใช้งานได้จริง</p>
+      <div class="hero-actions">
+        <a href="projects.html" class="btn">ดูผลงาน</a>
+        <a href="contact.html" class="btn btn-outline">ติดต่อผม</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="section-heading">
+      <span class="section-number">01</span>
+      <div><h2>เกี่ยวกับผม</h2><p>ตัวตนและแนวทางการพัฒนาของผม</p></div>
+    </div>
+    <div class="two-col">
+      <div class="info-card">
+        <h3>จุดแข็ง</h3>
+        <ul>
+          <li>มีพื้นฐานด้านระบบเครือข่ายและการสื่อสารข้อมูล</li>
+          <li>สามารถวิเคราะห์ปัญหาและแก้ไขระบบอย่างเป็นขั้นตอน</li>
+          <li>สนใจการทดลองและลงมือสร้างระบบจริง</li>
+          <li>สามารถทำงานร่วมกับผู้อื่นในโครงงานวิศวกรรมได้</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <h3>สิ่งที่กำลังพัฒนา</h3>
+        <ul>
+          <li>การออกแบบและดูแลระบบเครือข่ายให้มีประสิทธิภาพ</li>
+          <li>การประยุกต์ใช้ IoT และระบบสื่อสารกับงานจริง</li>
+          <li>การเขียนโปรแกรมสำหรับระบบ Embedded และ Automation</li>
+          <li>การออกแบบระบบและพัฒนาโครงงานวิศวกรรมแบบครบวงจร</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="section-heading">
+      <span class="section-number">02</span>
+      <div><h2>ทักษะ</h2><p>เทคโนโลยีที่ผมสนใจและใช้งาน</p></div>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-card"><span class="skill-icon">01</span><h3>Computer Networks</h3><p>พื้นฐานระบบเครือข่าย การกำหนดค่าอุปกรณ์ และการสื่อสารข้อมูล</p></div>
+      <div class="skill-card"><span class="skill-icon">02</span><h3>Communication Systems</h3><p>พื้นฐานระบบสื่อสารและการส่งข้อมูลในระบบวิศวกรรมไฟฟ้าสื่อสาร</p></div>
+      <div class="skill-card"><span class="skill-icon">03</span><h3>PLC & HMI</h3><p>สนใจระบบควบคุมอัตโนมัติและการเชื่อมต่อ PLC กับ HMI</p></div>
+      <div class="skill-card"><span class="skill-icon">04</span><h3>IoT & Programming</h3><p>การเขียนโปรแกรมและการประยุกต์ใช้ IoT กับระบบตรวจวัดและควบคุม</p></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><p>© 2026 My Resume · Built with HTML & CSS</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
